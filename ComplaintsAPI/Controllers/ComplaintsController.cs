@@ -43,7 +43,6 @@ namespace ComplaintsAPI.Controllers
 
 
         // POST: api/Complaints
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Complaint>> PostComplaint(Complaint complaint)
         {
